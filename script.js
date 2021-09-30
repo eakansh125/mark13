@@ -193,6 +193,10 @@ function clickHandler() {
             output.innerHTML = `The next palindrome date is ${nextdate.day}-${nextdate.month}-${nextdate.year}. You missed it by ${ctr} days`
         }
     }
+
+    else{
+        output.innerHTML = "Please enter a valid input"
+    }
     
 }
 

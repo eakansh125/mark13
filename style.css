@@ -44,6 +44,11 @@ background: linear-gradient(to right, #BFE6BA, #D3959B); /* W3C, IE 10+/ Edge, F
 #foot{
     height: 14rem;
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
     font-weight: bold;
+}
+#foot>p{
+    margin: 0;
 }
